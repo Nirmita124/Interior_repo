@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navBarLink {
+  margin: 10px;
+}
+
+.navbar{
+  /* border: 2px solid black; */
+  color: white;
+  height: 60px;
+  font-size: 15px;
+  font-family: 'Raleway',sans-serif;
+}
+
+.logo{
+  background-repeat: no-repeat;   
+  background-size: 100%;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.img_prop{
+  background-image: url("home-bg.jpg");
+  background-repeat: no-repeat;   
+  background-size: 100%;
+  height: 500px;
+  border-bottom-style: ridge;
+  border-bottom-width: 4px;
+}
+
+/* .owl-carousel .owl-nav .owl-prev{
+  background: url('left-icon.png') no-repeat;
+}
+.owl-carousel .owl-nav .owl-next{
+  background: url('right-icon.png') no-repeat;
+} */
+
+.App-headline {
+  color: black;
+  width: max-content;
+  padding-top: 3%;
+}
+.App-headline1 {
+  color: black;
+  position: absolute;
+  left: 42%;
+}
+.statement{
+  color: black;
+  left: 5%;
+  font-size: 30px;
+}
+.dining{
+  background-repeat: no-repeat;   
+  background-size: 100%;
+  height: 320px;
+  width: 350px;
+  border-radius: 8px;
+  padding-right: 30px;
+  left: 5%;
+}
+.bedroom{
+  background-repeat: no-repeat;   
+  background-size: 100%;
+  height: 320px;
+  width: 330px;
+  border-radius: 8px;
+  padding-right: 30px;
+}
+.living{
+  background-repeat: no-repeat;   
+  background-size: 100%;
+  height: 320px;
+  width: 350px;
+  border-radius: 8px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
