@@ -33,6 +33,14 @@
   border-radius: 4px;
 }
 
+.full-logo{
+  background-repeat: no-repeat;   
+  background-size: 100%;
+  height: 100px;
+  border: 1px solid;
+  border-color: white;
+}
+
 .App-header {
   display: flex;
   flex-direction: column;
@@ -71,13 +79,13 @@
   color: black;
   left: 5%;
   font-size: 30px;
+  position: absolute;
 }
 .dining{
   background-repeat: no-repeat;   
   background-size: 100%;
   height: 320px;
   width: 350px;
-  border-radius: 8px;
   padding-right: 30px;
   left: 5%;
 }
@@ -86,7 +94,6 @@
   background-size: 100%;
   height: 320px;
   width: 330px;
-  border-radius: 8px;
   padding-right: 30px;
 }
 .living{
@@ -94,9 +101,42 @@
   background-size: 100%;
   height: 320px;
   width: 350px;
-  border-radius: 8px;
 }
 
+.site-info{
+  height: 450px;
+  background-color: black;
+  padding: 50px 70px;
+  color: white;
+}
+
+.empty-div{
+  height: 20px;
+  width: 100%;
+}
+
+.heading-font{
+  font-size: 20px;
+  font-style: Gilroy;
+}
+
+.content-font{
+  font-size: 15px;
+  font-style: normal;
+}
+
+.colCount{
+  column-count: 3
+}
+.contact-info{
+  border: 1px solid;
+  border-color: white;
+  border-radius: 8px;
+  font-family: fantasy;
+}
+p{
+  line-height: 6px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
