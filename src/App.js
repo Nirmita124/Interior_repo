@@ -5,7 +5,9 @@ import Home from './components/home';
 import Work from './components/work';
 import Contact from './components/contact';
 import Logo from './new-logo.png';
-import FullLogo from './new-logo.jpeg';
+import CompanyLogo from './new-logo.jpeg';
+import FBLogo from './FB logo.png';
+import IGLogo from './IG logo.jpg';
 import Bedroom from './Bedroom.jpg';
 import Dining from './Dining-room.jpg';
 import Living from './Living-Room.jpg';
@@ -28,10 +30,10 @@ class App extends Component {
       <div className="navbar">
         <img src={Logo} alt="Logo" className="logo" />
         <Link exact to="/" className="navBarLink">Home</Link>
-        <Link to="/work" className="navBarLink">Design Gallery</Link>
-        <Link to="/work" className="navBarLink">Recent Projects</Link>
-        <Link to="/work" className="navBarLink">About Us</Link>
-        <Link to="/contact" className="navBarLink">Contact</Link>
+        <Link to="" className="navBarLink">Design Gallery</Link>
+        <Link to="" className="navBarLink">Recent Projects</Link>
+        <Link to="" className="navBarLink">About Us</Link>
+        <Link to="" className="navBarLink">Contact</Link>
       </div>
       <header className="img_prop"></header>      
       <div className="App App-header">
@@ -39,7 +41,7 @@ class App extends Component {
         <p className="App-headline">The ISLAND where you can foresee your dream home and make it in the world of REALITY</p>
       </div>
       <div>
-        <p className="statement">Statement interiors</p> <br />
+        {/* <p className="statement">Statement interiors</p> <br /> */}
         <div>
           <img src={Dining} alt="Dining" className="dining" />
           <img src={Bedroom} alt="Bedroom" className="bedroom" />
@@ -48,24 +50,23 @@ class App extends Component {
       </div>
       <div className="empty-div"></div>
       <div className="site-info colCount">
-          <img src={FullLogo} alt="Logo" className="full-logo" />
+          <img src={CompanyLogo} alt="Company Logo" className="full-logo" /><br/>
+          <img src={FBLogo} alt="FB Logo" className="media-logo" />
+          <img src={IGLogo} alt="IG Logo" className="media-logo" />
+          <div className="empty-div"></div>
           <p className="heading-font">Get in touch</p>
           <p className="content-font">
-            Call us : +91 7059687372 <br/> Email us : interiorinland@gmail.com
+            Call : +91 7059687372 || Email : interiorinland@gmail.com
           </p>
-          <p className="heading-font">Location</p>
+          <p className="heading-font">Location | Offering Area</p>
           <p className="content-font">
-            Kolkata city
+            Kolkata city and All over West Bengal
           </p>
-          <p className="heading-font"><b>Offering Area</b></p>
-          <p className="content-font">
-            All over West Bengal
-          </p>
-          <p className="heading-font"><b>Design Idea</b></p>
+          <p className="heading-font">Design Idea</p>
           <p className="content-font">
             Renovate home | Office interior | Bunglow Decore
           </p>
-          <p className="heading-font"><b>Key Features</b></p>
+          <p className="heading-font">Key Features</p>
           <p className="content-font">
             <ul>
               <li>Living and Dinning space</li><br />
@@ -75,14 +76,16 @@ class App extends Component {
               <li>Kitchen and Wordrobe Cabinets</li>
             </ul>
           </p>
-          <br/><br/>
-          {/* <div>
-            <p className="heading-font"><b>Developer and Website designer</b></p>
-            <pre className="content-font">
-              Nirmita De<br/>
-              Contact : +91 7686984823 || Email : de.nirmita@gmail.com
-            </pre>
-          </div> */}
+      </div>
+      <div className="footer colsCount">
+        <p className="heading-font">Developer and Website designer</p>
+        <p className="content-font">
+          Nirmita De<br/>
+          Contact : +91 7686984823 || Email : de.nirmita@gmail.com
+        </p>
+        <p className="footer-info">
+          © Copyright 2021 | All Rights Reserved
+        </p>
       </div>
     </div> 
     )
