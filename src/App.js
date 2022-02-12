@@ -58,11 +58,11 @@ class App extends Component {
           <p className="content-font">
             Call : +91 7059687372 || Email : interiorinland@gmail.com
           </p>
-          <p className="heading-font">Location | Offering Area</p>
+          <p className="heading-font">Location | Service Area</p>
           <p className="content-font">
             Kolkata city and All over West Bengal
           </p>
-          <p className="heading-font">Design Idea</p>
+          <p className="heading-font">Design Category</p>
           <p className="content-font">
             Renovate home | Office interior | Bunglow Decore
           </p>
@@ -83,7 +83,7 @@ class App extends Component {
           Nirmita De<br/>
           Contact : +91 7686984823 || Email : de.nirmita@gmail.com
         </p>
-        <p className="footer-info">
+        <p className="copyright">
           © Copyright 2021 | All Rights Reserved
         </p>
       </div>
